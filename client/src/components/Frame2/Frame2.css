@@ -41,21 +41,21 @@
     margin-left: 5vw;
     padding: 1vw;
     border-radius: 2vw;
-    width: 15vw;
+    width: 16vw;
     transition: 0.1s ease-in-out;
 }
 
 .rightPointer{
-    margin-left: 2vw;
+    margin-left: 3vw;
     height: 20px;
     transition:0.1s ease-in-out;
 }
 
 .slidebar:hover{
-    width: 15.5vw;
+    width: 16.5vw;
 
     .rightPointer{
-        margin-left: 2.5vw;
+        margin-left: 3.5vw;
     
     }
 }
