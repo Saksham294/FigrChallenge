@@ -1,0 +1,49 @@
+.textreveal_section{
+    padding-top: 0;
+    padding-bottom: 0;
+    /* border: 2px solid red; */
+    height: 120vh;
+    scroll-snap-type: proximity;
+}
+
+.container{
+    display: block;
+}
+
+.textreveal_wrapper{
+    position: relative;
+    height: 100vh;
+    /* border: 2px solid blue; */
+}
+
+.textreveal_sticky{
+    position:sticky;
+    display: flex;
+    height: 50%;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.reveal{
+    color: #ffffff;
+    /* border: 2px solid green; */
+    width: 900px;
+    position: relative;
+    margin-top: 25vw;
+    margin-left:5vw;
+}
+
+.reveal-text{
+    font-size: 56px;
+    width: 1064px;
+    /* border: 2px solid green; */
+    font-family: 'Inter';
+    color: rgb(0, 0, 0);
+    filter: drop-shadow(0 0 0.06rem rgb(255, 255, 255));
+}
+
+.reveal-type{
+    font-size: 2vw;
+}
+  
+  
